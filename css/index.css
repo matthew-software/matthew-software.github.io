@@ -1,0 +1,158 @@
+/* Developer: Matthew Laine */
+
+p { line-height: 1em; }
+
+html {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+    font-family: "arial"; 
+    font-size: 80%;
+    font-weight: normal;
+    line-height: 1.2em; 
+    width: 100%; 
+    margin: 0; 
+    background: black;
+}
+
+
+
+/* __________FRONT PAGE (UNDER COVER)__________ */
+#page {
+	left: 30px;
+	right: 30px;
+	max-width: 100%;
+	position: absolute;
+	display: none;
+	background-image: url("../img/background.jpg");
+	background-attachment: fixed;
+}
+
+/* ---Logo--- */
+#logo {
+	background-color: white;
+	font-size: 50px;
+	padding: 10px;
+	text-align: center;
+	opacity: .5;
+}
+
+#logo h1 {
+	opacity: .5;
+	padding-top: 30px;
+}
+/* ------------------------------ */
+
+/* ---Content--- */
+#content {
+	font-size: 20px;
+}
+	#content h2 {
+		padding-top: 30px;
+		color: black;
+		font-size: 50px;
+		opacity: .5;
+	}
+	#content p {
+		background-color: black;
+		opacity: .5;
+		text-align: center;
+	}
+
+.section {
+	margin: 30px 0;
+	color: white;
+	padding: 20px;
+	clear: both;
+}
+/* ------------------------------ */
+
+/* ---Footer--- */
+#footer {
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p {
+		padding-right: 10px;
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+	}
+/* ------------------------------ */
+/* ____________________________________________________________ */
+
+
+
+/* __________Navigation Bar__________ */
+#nav {
+	height: 100%;
+}
+	#nav ul{
+		top: -10px;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+		background-color: black;
+		position: fixed;
+		width: 100%;
+	}
+		#nav ul li{
+			display: inline-block;
+			height: 100%;
+		}
+			#nav ul li a{
+				padding: 0 50px;
+				font-size: 20px;
+				height: 100%;
+				color: white;
+			}
+				#nav ul li a:hover{
+					opacity: .5;
+					box-shadow: 0px 1px 1px #666;
+				}
+				#nav ul li a:active{
+					background-color: white;
+					color: black;
+					opacity: .5;
+				}
+/* ____________________________________________________________ */
+
+
+
+/* __________COVER__________ */
+
+#cover {
+	position: relative;
+}
+	#cover img {
+	    max-width: 100%;
+	}
+
+/* ---text over cover page--- */
+.cover-text {
+    position: absolute;
+    text-align:center;
+    width: 100%;
+
+    font-family: "arial";
+    text-transform: uppercase;
+    opacity: .5;
+}
+
+	#intro {
+		top: 30px;
+		font-size: 50px;
+		color: gray;
+	}
+
+	#continue {
+		top: 500px;
+		font-size: 10px;
+		color: white;
+		opacity: .5;
+	}
+/* ------------------------------ */
+/* ____________________________________________________________ */
